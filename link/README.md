@@ -25,3 +25,15 @@ https://youtube.com/live/Zr6XMfQUv08
 ## 2024_11_16_下午
 
 https://youtube.com/live/r7Kj8dpsXjk
+
+---
+
+## 2024_11_23_早上
+
+https://youtube.com/live/gMKGq6KZLy0
+
+## 2024_11_23_下午
+
+https://youtube.com/live/_afMhN9vF8k
+
+---
