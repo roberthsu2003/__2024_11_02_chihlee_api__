@@ -37,3 +37,11 @@ https://youtube.com/live/gMKGq6KZLy0
 https://youtube.com/live/_afMhN9vF8k
 
 ---
+
+## 2024_11_30_早上
+https://youtube.com/live/1Ey3LwjQMV4
+
+## 2024_11_30_下午
+https://youtube.com/live/2YQcn9VzSqg
+
+---
