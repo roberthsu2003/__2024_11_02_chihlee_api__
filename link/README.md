@@ -45,3 +45,7 @@ https://youtube.com/live/1Ey3LwjQMV4
 https://youtube.com/live/2YQcn9VzSqg
 
 ---
+
+## 2024_12_07_早上
+
+https://youtube.com/live/zenppplLRpo
