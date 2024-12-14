@@ -11,9 +11,9 @@ def get_youbikes()->list[dict]:
         r:Response = requests.request('GET',url)
         r.raise_for_status()   
     except HTTPError as e:
-        print(e)
+        raise Exception("伺服器有問題")
     except RequestException as e:
-        print(e)
+        raise Exception("連線有問題")
     else:
         print("下載成功")
         file = StringIO(r.text)
