@@ -27,29 +27,14 @@ with col2:
                             '可還空位數':item['bemp'],
                             '營業中':item['act'],
                             'latitude':float(item['lat']),
-                            'longtude':float(item['lng'])
+                            'longitude':float(item['lng'])
                              } for item in filter_list]
     st.dataframe(show_data)
 
-#下方顯示該行政區域的YouBike站點資訊的地圖
 
-#st.map(show_data,latitude='latitude',longitude='longtude')
-# 將資料轉換為 DataFrame
 df = pd.DataFrame(show_data)
 
-# 重命名經緯度欄位
-df = df.rename(columns={
-    'lat': 'latitude',
-    'lng': 'longitude'
-})
 
-# 組合站點資訊文字
-df['site_info'] = df.apply(
-    lambda row: f"站點：{row['sna']}\n可借:{row['sbi']}\n可還:{row['bemp']}", 
-    axis=1
-)
-
-# 顯示地圖並標記站點
 st.map(
     data=df,
     latitude='latitude',
@@ -60,4 +45,4 @@ st.map(
 
 # 在地圖下方顯示站點詳細資訊
 for _, row in df.iterrows():
-    st.text(row['site_info'])
+    st.text(row['站點'])
